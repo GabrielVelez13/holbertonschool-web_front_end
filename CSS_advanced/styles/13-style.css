@@ -11,6 +11,10 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
+a:link {
+    color: var(--text-color);
+    text-decoration: none;
+}
 a[href]:visited {
     font-style: italic;
 }
@@ -19,10 +23,6 @@ a[href]:hover {
 }
 a[href]:active {
     background-color: var(--color-light-grey);
-}
-a {
-    color: var(--text-color);
-    text-decoration: none;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--font-family-title);
